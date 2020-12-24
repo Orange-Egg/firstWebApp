@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ほめてくれるよ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="happy.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-area">
+            <h1>ほめてくれるよ</h1>
+            <br>
+        </div>
+        <form name="form1">
+            <div class="input-area">            
+                <p>こちらにあなたの名前を入力してください</p>
+                <input id="username" type="text" width="30" value="" placeholder="名前を入力">            
+                <br><br>                
+            </div>                  
+            <div class="message-area">
+                <p>あなたをほめるメッセージです。受け取ってください。</p>            
+                <textarea id="message" cols="50" rows="5" placeholder="こちらにあなたへのほめ言葉が表示されます"></textarea>
+            </div>
+        </form>
+        <br><br> 
+        <button id="btn1" onClick="resultMsg()">ほめてもらう</button>
+        &nbsp;&nbsp;
+        <button id="btn2" onClick="resetMsg()">リセットする</button>
+        <br><br><br>
+        <div id="output_username"></div>
+        <p id="hidden">今日も頑張っていきましょう！</p>
+        <div class="bottom-area">
+            Copyright © 2020 Orange-Egg All Rights Reserved.
+        </div>
+    </div>
+  　<script type="text/javascript" src="main_.js" charset="UTF-8"></script>
+</body>
+
+</html>

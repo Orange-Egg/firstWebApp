@@ -1,0 +1,59 @@
+/*css記述*/
+.container {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-area h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.input-area p, .message-area p {
+    font-size: 20px;
+}
+
+#username {
+    font-size: 18px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#message {
+    font-size: 18px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#btn1 {
+    background-color: aquamarine;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 7px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#btn2 {
+    color: white;
+    background-color: brown;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 7px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#output_username {
+    font-size: 20px;
+    
+}
+
+#hidden {
+    font-size: 20px;
+    display: none;
+}
